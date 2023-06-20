@@ -98,7 +98,7 @@ public class NearbyFragment2 extends Fragment {
                 StringBuilder stringBuilder = new StringBuilder("https://api.tomtom.com/search/2/nearbySearch/.json?key=6qcm2DvpNTAOPo7Yd01gMPjVAgslAWCm&" +
                         "lat="+lat+"&" +
                         "lon="+lng+"&" +
-                        "categoryset=7315&" +
+                        "categorySet=7315&" +
                         "limit=5");
                 String url = stringBuilder.toString();
                 Object[] dataFetch = new Object[2];
